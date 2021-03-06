@@ -89,7 +89,7 @@ class Interface(Thread):
         self.nom.place(relx=0.03, rely=0.05, relwidth=0.3, relheight=0.05)
 
         self.fichier = Label(self.details, text="Chemin :", font=("Courrier", 15), bg="#3e403f", fg="white")
-        self.fichier.place(relx=0.03, rely=0.55, relwidth=0.4, relheight=0.05)
+        self.fichier.place(relx=0.03, rely=0.55, relwidth=0.437, relheight=0.05)
 
     def create_checkbutton(self):
         """
